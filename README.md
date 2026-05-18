@@ -53,7 +53,7 @@ Kali Linux Splunk SIEM Server
 
 ---
 
-# 🖥️ Lab Environment
+#  Lab Environment
 
 | Machine | Purpose |
 |---|---|
@@ -158,7 +158,7 @@ Purpose:
 
 ---
 
-# 🔐 Windows Audit Policy Configuration
+#  Windows Audit Policy Configuration
 
 The following audit policies were enabled:
 
@@ -173,7 +173,7 @@ Purpose:
 
 ---
 
-# ⚔️ Attack Simulation
+#  Attack Simulation
 
 ## Objective
 
@@ -378,35 +378,37 @@ A SOC Monitoring Dashboard was created in Splunk containing the following panels
 
 ---
 
-#  Screenshots
+#  Proof of Concept (PoC)
+
+The following screenshots demonstrate the successful implementation of the SOC SIEM Lab, including attack simulation, log collection, threat detection, dashboard monitoring, and incident investigation.
 
 ## Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](proof_of_concept/dashboard.png)
 
 ---
 
 ## Brute Force Alert
 
-![Alert](screenshots/brute_force_alert.png)
+![Alert](proof_of_concept/brute_force_alert.png)
 
 ---
 
 ## Failed Login Logs
 
-![Logs](screenshots/failed_login_logs.png)
+![Logs](proof_of_concept/failed_login_logs.png)
 
 ---
 
 ## Hydra Attack Simulation
 
-![Hydra](screenshots/hydra_attack.png)
+![Hydra](proof_of_concept/hydra_attack.png)
 
 ---
 
 ## Windows Event Viewer
 
-![EventViewer](screenshots/windows_event_viewer_logs.png)
+![EventViewer](proof_of_concept/windows_event_viewer_logs.png)
 
 ---
 
@@ -433,7 +435,7 @@ Failure_Reason=Unknown user name or bad password
 
 ---
 
-# 📄 Incident Investigation Summary
+#  Incident Investigation Summary
 
 ## Incident Type
 
