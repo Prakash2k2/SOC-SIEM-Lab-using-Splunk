@@ -1,0 +1,34 @@
+05/18/2026 01:00:58.504 PM
+LogName=Security
+EventCode=4625
+EventType=0
+ComputerName=DESKTOP-O0E5DL8
+
+Account_Name=Ghost
+Source_Network_Address=192.168.29.150
+Failure_Reason=Unknown user name or bad password
+
+Message :-
+An account failed to log on.
+
+Subject :-
+Security ID: S-1-0-0
+Account Name: -
+Account Domain: -
+
+Logon Type : 3
+
+Account For Which Logon Failed :-
+Security ID: S-1-0-0
+Account Name: Ghost
+Account Domain: DESKTOP-O0E5DL8
+
+Failure Information :-
+Failure Reason: Unknown user name or bad password
+Status: 0xC000006D
+Sub Status: 0xC000006A
+
+Network Information :-
+Workstation Name: creed
+Source Network Address: 192.168.29.150
+Source Port: 49832
