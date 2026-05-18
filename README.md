@@ -1,6 +1,6 @@
 # SOC SIEM Lab using Splunk
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the implementation of a Security Operations Center (SOC) Lab using Splunk SIEM for centralized log monitoring, brute-force attack detection, alert generation, dashboard visualization, and incident investigation.
 
@@ -20,7 +20,7 @@ This project demonstrates practical SOC analyst skills including:
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 The main objectives of this project are:
 
@@ -35,7 +35,11 @@ The main objectives of this project are:
 
 ---
 
-# 🏗️ Lab Architecture
+#  Lab Architecture
+
+## Architecture Diagram
+
+![Architecture Diagram](architecture_diagram.png)
 
 ```text
 Ubuntu Linux (Attacker Machine)
@@ -59,7 +63,7 @@ Kali Linux Splunk SIEM Server
 
 ---
 
-# 🌐 Network Configuration
+#  Network Configuration
 
 All virtual machines were configured using Bridged Adapter networking to allow communication between systems.
 
@@ -73,7 +77,7 @@ Example IP Configuration:
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -87,7 +91,7 @@ Example IP Configuration:
 
 ---
 
-# ⚙️ Splunk Configuration
+#  Splunk Configuration
 
 ## Splunk Enterprise Installation
 
@@ -119,7 +123,7 @@ Enabled Port:
 
 ---
 
-# 📥 Windows Log Collection Configuration
+#  Windows Log Collection Configuration
 
 ## Splunk Universal Forwarder Installation
 
@@ -230,7 +234,7 @@ hydra -t 1 -W 3 -l Ghost -P password.txt rdp://192.168.29.174
 
 ---
 
-# 📊 Log Verification
+#  Log Verification
 
 Windows Security logs were successfully detected in Splunk using:
 
@@ -246,7 +250,7 @@ source="WinEventLog:Security" EventCode=4625
 
 ---
 
-# 🔍 Important Windows Event IDs
+#  Important Windows Event IDs
 
 | Event ID | Description |
 |---|---|
@@ -256,7 +260,7 @@ source="WinEventLog:Security" EventCode=4625
 
 ---
 
-# 🧠 SOC Investigation Workflow
+#  SOC Investigation Workflow
 
 The investigation process followed a standard SOC workflow:
 
@@ -270,7 +274,7 @@ The investigation process followed a standard SOC workflow:
 
 ---
 
-# 🚨 Detection Queries
+#  Detection Queries
 
 ## 1. Failed Login Detection
 
@@ -361,7 +365,7 @@ Brute Force Detection Alert
 
 ---
 
-# 📈 Dashboard Development
+#  Dashboard Development
 
 A SOC Monitoring Dashboard was created in Splunk containing the following panels:
 
@@ -374,7 +378,7 @@ A SOC Monitoring Dashboard was created in Splunk containing the following panels
 
 ---
 
-# 📸 Screenshots
+#  Screenshots
 
 ## Dashboard
 
@@ -406,7 +410,7 @@ A SOC Monitoring Dashboard was created in Splunk containing the following panels
 
 ---
 
-# 🧪 Sample Security Log
+#  Sample Security Log
 
 Example Windows failed login event:
 
@@ -420,7 +424,7 @@ Failure_Reason=Unknown user name or bad password
 
 ---
 
-# 🔐 MITRE ATT&CK Mapping
+#  MITRE ATT&CK Mapping
 
 | Technique ID | Technique |
 |---|---|
@@ -552,7 +556,7 @@ SOC-SIEM-Lab-using-Splunk/
 
 ---
 
-# 🧠 Skills Demonstrated
+#  Skills Demonstrated
 
 - SIEM Deployment
 - Windows Log Collection
