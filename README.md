@@ -1,5 +1,10 @@
 # SOC SIEM Lab using Splunk
 
+![Splunk](https://img.shields.io/badge/SIEM-Splunk-green)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-T1110-red)
+
 ##  Project Overview
 
 This project demonstrates the implementation of a Security Operations Center (SOC) Lab using Splunk SIEM for centralized log monitoring, brute-force attack detection, alert generation, dashboard visualization, and incident investigation.
