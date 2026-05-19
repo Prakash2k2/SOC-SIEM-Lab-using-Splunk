@@ -1,7 +1,7 @@
 # SOC SIEM Lab using Splunk
 
 ![Splunk](https://img.shields.io/badge/SIEM-Splunk-green)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Kali_Linux%20%7C%20Ubuntu-blue)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-T1110-red)
 
